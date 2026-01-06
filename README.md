@@ -1,10 +1,10 @@
 # CC Skills
 
-My personal curated and self-developed skills for [Claude Code](https://ampcode.com).
+My personal curated and self-developed skills for [Claude Code](https://claude.ai/code).
 
 ## Skills
 
-### 🎨 [premium-frontend-design](./premium-frontend-skill/)
+### 🎨 [advanced-frontend-skill](./advanced-frontend-skill/)
 
 Create award-winning, cinematic frontend interfaces that feel ALIVE. Combines 10+ years of creative frontend experience with technical excellence.
 
@@ -30,13 +30,9 @@ Autonomous AI coding loop with clean slate iterations, PRD-driven features, and 
 - PRD-to-implementation workflow
 - Quality gates and progress tracking
 
-### ✍️ [will-vibe-coding](./will-vibe-coding/)
+### 🖼️ [svg-art-skill](./svg-art-skill/)
 
-Ghost writer for vibe coding content — tech philosophy meets practical mentorship.
-
-- Vibe coding, system thinking, context engineering
-- Claude Code / AMP / Droid CLI expertise
-- Vietnamese tech writing style
+Generate SVG artwork programmatically (WIP).
 
 ## Installation
 

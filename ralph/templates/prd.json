@@ -1,0 +1,49 @@
+{
+  "project": "My Project",
+  "description": "A brief description of what this project does",
+  "userStories": [
+    {
+      "id": "US-001",
+      "priority": 1,
+      "title": "Example: Add date formatting utility",
+      "description": "Create a utility function that formats Date objects into human-readable strings",
+      "acceptanceCriteria": [
+        "File src/utils/date.ts exists",
+        "Function formatDate(date: Date, format: string): string is exported",
+        "Supports formats: 'short', 'long', 'iso'",
+        "Unit tests exist in src/utils/date.test.ts",
+        "All tests pass",
+        "TypeScript compiles without errors"
+      ],
+      "passes": false
+    },
+    {
+      "id": "US-002",
+      "priority": 2,
+      "title": "Example: Add string manipulation utilities",
+      "description": "Create common string helper functions for the project",
+      "acceptanceCriteria": [
+        "File src/utils/string.ts exists",
+        "Functions: capitalize, truncate, slugify are exported",
+        "Each function has JSDoc documentation",
+        "Unit tests cover edge cases (empty strings, special characters)",
+        "All tests pass"
+      ],
+      "passes": false
+    },
+    {
+      "id": "US-003",
+      "priority": 3,
+      "title": "Example: Add array utility functions",
+      "description": "Create reusable array helper functions",
+      "acceptanceCriteria": [
+        "File src/utils/array.ts exists",
+        "Functions: unique, chunk, shuffle are exported",
+        "Generic TypeScript types are used (no 'any')",
+        "Unit tests exist with 5+ test cases per function",
+        "All tests pass"
+      ],
+      "passes": false
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# Ralph Loop Progress
+
+This file tracks the progress of each Ralph loop iteration.
+Each entry below is appended by the AI agent after completing a feature.
+
+---
