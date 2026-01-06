@@ -13,6 +13,15 @@ Create award-winning, cinematic frontend interfaces that feel ALIVE. Combines 10
 - Templates for heroes, dashboards, glass components
 - Framework-flexible (React, Three.js, GSAP, Framer Motion)
 
+### 📐 [excalidraw](./excalidraw/)
+
+Generate Excalidraw-compatible JSON diagrams for visual documentation.
+
+- Flowcharts, system architectures, user journeys
+- Grid-based layout with precise positioning
+- Templates for processing loops and decision trees
+- Output `.excalidraw.json` files for excalidraw.com
+
 ### 🤖 [ralph](./ralph/)
 
 Autonomous AI coding loop with clean slate iterations, PRD-driven features, and CI quality gates.
