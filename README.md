@@ -32,7 +32,13 @@ Autonomous AI coding loop with clean slate iterations, PRD-driven features, and 
 
 ### 🖼️ [svg-art-skill](./svg-art-skill/)
 
-Generate SVG artwork programmatically (WIP).
+Generate SVG graphics through programmatic Python scripts.
+
+- Grid patterns, radial/spiral designs, fractals
+- Waves, particles, constellations
+- Data visualizations (bar, line, pie, donut charts)
+- UI icons library with 40+ icons
+- SVG optimization and minification
 
 ## Installation
 
