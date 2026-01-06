@@ -1,4 +1,4 @@
-# Planning with Files
+# Plan Skill
 
 > **Work like Manus** — the AI agent company Meta just acquired for **$2 billion**.
 
@@ -61,12 +61,13 @@ notes.md          → Store research and findings
 cd ~/.claude/skills  # or your custom skills path
 
 # Clone this skill
-git clone https://github.com/OthmanAdi/planning-with-files.git
+git clone https://github.com/kv0906/cc-skills.git
+cp -r cc-skills/plan-skill ~/.claude/skills/
 ```
 
 ### Option 2: Manual installation
 
-1. Download or copy the `planning-with-files` folder
+1. Download or copy the `plan-skill` folder
 2. Place it in your Claude Code skills directory:
    - macOS/Linux: `~/.claude/skills/`
    - Windows: `%USERPROFILE%\.claude\skills\`
@@ -127,7 +128,7 @@ This skill implements these key context engineering principles:
 ## File Structure
 
 ```
-planning-with-files/
+plan-skill/
 ├── SKILL.md        # Core instructions (what Claude reads)
 ├── reference.md    # Manus principles deep dive
 ├── examples.md     # Real usage examples

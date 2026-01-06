@@ -40,6 +40,15 @@ Generate SVG graphics through programmatic Python scripts.
 - UI icons library with 40+ icons
 - SVG optimization and minification
 
+### 📋 [plan-skill](./plan-skill/)
+
+Manus-style persistent markdown planning for complex tasks.
+
+- 3-file pattern: task_plan.md, notes.md, deliverable
+- Progress tracking with checkboxes
+- Error logging and knowledge storage
+- Context engineering (based on $2B Manus workflow)
+
 ## Installation
 
 Copy the skill folder to your Claude Code skills directory:
