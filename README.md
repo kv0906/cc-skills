@@ -13,6 +13,15 @@ Create award-winning, cinematic frontend interfaces that feel ALIVE. Combines 10
 - Templates for heroes, dashboards, glass components
 - Framework-flexible (React, Three.js, GSAP, Framer Motion)
 
+### 🎬 [animated-diagram](./animated-diagram/)
+
+Build animated technical diagrams (flowcharts, decision trees, pipelines) as Remotion + React videos.
+
+- Mermaid as the input language — describe in English, Claude writes Mermaid
+- Components bake in the design system, dagre auto-layout, and animation patterns
+- Node/edge reveals on a timeline, plus trace dots that follow a path and light up nodes
+- Optional CRT shader wrapper for the retro-terminal finish
+
 ### 📐 [excalidraw](./excalidraw/)
 
 Generate Excalidraw-compatible JSON diagrams for visual documentation.

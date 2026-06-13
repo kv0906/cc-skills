@@ -17,6 +17,7 @@ Each skill is a directory containing:
 | Skill | Purpose |
 |-------|---------|
 | `advanced-frontend-skill/` | Awwwards-level frontend interfaces with WebGL, shaders, animations |
+| `animated-diagram/` | Animated flowcharts/decision trees as Remotion + React videos (Mermaid input, node/edge reveals, trace dots, CRT shader) |
 | `excalidraw/` | Generate Excalidraw JSON diagrams programmatically |
 | `ralph/` | Ralph Wiggum autonomous coding loop - PRD-driven with CI gates |
 | `svg-art-skill/` | Programmatic SVG generation (grids, fractals, charts, icons) |
