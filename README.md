@@ -31,6 +31,14 @@ Generate Excalidraw-compatible JSON diagrams for visual documentation.
 - Templates for processing loops and decision trees
 - Output `.excalidraw.json` files for excalidraw.com
 
+### 🧠 [excalidraw-diagram](./excalidraw-diagram/)
+
+Generate Excalidraw diagrams that **argue visually** — shapes mirror the concept (fan-outs, timelines, convergence), not uniform card grids. By [coleam00](https://github.com/coleam00/excalidraw-diagram-skill).
+
+- Concept-driven layout + evidence artifacts (real code/JSON snippets)
+- Built-in Playwright render pipeline for visual self-validation
+- Brand-customizable via a single `color-palette.md`
+
 ### 🤖 [ralph](./ralph/)
 
 Autonomous AI coding loop with clean slate iterations, PRD-driven features, and CI quality gates.
