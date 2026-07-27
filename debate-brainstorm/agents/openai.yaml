@@ -1,0 +1,4 @@
+interface:
+  display_name: "Debate Brainstorm"
+  short_description: "Run a structured two-agent debate"
+  default_prompt: "Use $debate-brainstorm to debate this plan with two independent agents and synthesize the strongest answer."

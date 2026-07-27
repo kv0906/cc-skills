@@ -22,6 +22,14 @@ Build animated technical diagrams (flowcharts, decision trees, pipelines) as Rem
 - Node/edge reveals on a timeline, plus trace dots that follow a path and light up nodes
 - Optional CRT shader wrapper for the retro-terminal finish
 
+### 🗣️ [debate-brainstorm](./debate-brainstorm/)
+
+Run two independent subagents through a structured debate before synthesizing one answer.
+
+- Independent first-round responses
+- Cross-critique and fact checking
+- Revised answers and unified synthesis
+
 ### 📐 [excalidraw](./excalidraw/)
 
 Generate Excalidraw-compatible JSON diagrams for visual documentation.
