@@ -22,6 +22,14 @@ Build animated technical diagrams (flowcharts, decision trees, pipelines) as Rem
 - Node/edge reveals on a timeline, plus trace dots that follow a path and light up nodes
 - Optional CRT shader wrapper for the retro-terminal finish
 
+### 🧩 [explaining-with-ascii](./explaining-with-ascii/)
+
+Explain technical systems and abstract concepts with plain language and readable ASCII diagrams.
+
+- Clear mental models before implementation details
+- Flow, branch, loop, architecture, comparison, and state diagrams
+- Concrete code anchors and language-aware explanations
+
 ### 🗣️ [debate-brainstorm](./debate-brainstorm/)
 
 Run two independent subagents through a structured debate before synthesizing one answer.

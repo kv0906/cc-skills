@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "$repo_root"
+
+echo "Preparing cc-skills for Amp..."
+echo "No dependencies to install; this repository contains skill definitions and self-contained helpers."
+echo "Setup complete."
