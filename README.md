@@ -1,95 +1,67 @@
-# CC Skills
+# Skills for AI Agents
 
-My personal curated and self-developed skills for [Claude Code](https://claude.ai/code).
+My collection of skills for writing, design, video, and coding with AI.
 
-## Skills
+**A skill is a set of instructions that teaches an AI how to do a particular job.** Think of it as a recipe: you bring the task, and the skill gives the AI a method to follow.
 
-### 🎨 [advanced-frontend-skill](./advanced-frontend-skill/)
+Use these with Amp, Claude Code, Codex, or another AI agent that supports skills.
 
-Create award-winning, cinematic frontend interfaces that feel ALIVE. Combines 10+ years of creative frontend experience with technical excellence.
+## Find a skill
 
-- WebGL, custom shaders, premium animations
-- Distinctive aesthetics (Awwwards-level)
-- Templates for heroes, dashboards, glass components
-- Framework-flexible (React, Three.js, GSAP, Framer Motion)
+| I want to… | Try this |
+| --- | --- |
+| Understand something complicated | [explain-to-me](skills/explain-to-me/) |
+| Make my writing clearer and less robotic | [no-ai-slop](skills/no-ai-slop/) |
+| See an idea as a diagram | [show-me](skills/show-me/) or [excalidraw-diagram](excalidraw-diagram/) |
+| Explore designs for an app or website | [prototype](skills/prototype/) |
+| Give a website an Apple-inspired feel | [apple-design](skills/apple-design/) |
+| Add smooth movement to buttons, menus, or panels | [animate](skills/animate/) |
+| Create slides or a presentation | [huashu-design](skills/huashu-design/) |
+| Write a client proposal in Vietnamese | [creating-client-proposals](skills/creating-client-proposals/) |
+| Turn an idea into an animated video | [creating-ui-driven-motion-videos](skills/creating-ui-driven-motion-videos/) |
+| Edit an existing video | [video-use](skills/video-use/) |
+| Plan a complex task | [plan-skill](plan-skill/) |
+| Check that a code change really works | [proving-changes](skills/proving-changes/) |
 
-### 🎬 [animated-diagram](./animated-diagram/)
+Browse [all 20 skills imported from my Amp setup](skills/) or the other collections in this repository's folders. Each skill explains when to use it.
 
-Build animated technical diagrams (flowcharts, decision trees, pipelines) as Remotion + React videos.
+## Get started
 
-- Mermaid as the input language — describe in English, Claude writes Mermaid
-- Components bake in the design system, dagre auto-layout, and animation patterns
-- Node/edge reveals on a timeline, plus trace dots that follow a path and light up nodes
-- Optional CRT shader wrapper for the retro-terminal finish
+**You can ask your AI agent to handle the setup.** Give it this repository link and a request like:
 
-### 🧩 [explaining-with-ascii](./explaining-with-ascii/)
+> Install the explain-to-me skill from https://github.com/kv0906/cc-skills, in skills/explain-to-me. Use your supported skills folder. Keep all supporting files and ask before replacing an existing skill.
 
-Explain technical systems and abstract concepts with plain language and readable ASCII diagrams.
+Once installed, try:
 
-- Clear mental models before implementation details
-- Flow, branch, loop, architecture, comparison, and state diagrams
-- Concrete code anchors and language-aware explanations
+> Use explain-to-me to explain how online payments work. Assume I have no technical background.
 
-### 🗣️ [debate-brainstorm](./debate-brainstorm/)
+Or:
 
-Run two independent subagents through a structured debate before synthesizing one answer.
+> Use no-ai-slop to edit this draft. Make it clearer, but keep my voice.
 
-- Independent first-round responses
-- Cross-critique and fact checking
-- Revised answers and unified synthesis
+### Manual setup
 
-### 📐 [excalidraw](./excalidraw/)
+1. Download this repository using **Code → Download ZIP**, then unzip it.
+2. Choose a skill and copy its **whole folder** into your project's location below.
+3. Restart your AI agent or ask it to reload skills.
 
-Generate Excalidraw-compatible JSON diagrams for visual documentation.
+| Your agent | Folder inside your project |
+| --- | --- |
+| Amp or Codex | `.agents/skills/` |
+| Claude Code | `.claude/skills/` |
+| Other agents | Check their skill installation instructions |
 
-- Flowcharts, system architectures, user journeys
-- Grid-based layout with precise positioning
-- Templates for processing loops and decision trees
-- Output `.excalidraw.json` files for excalidraw.com
+For example, the installed file should be `.agents/skills/explain-to-me/SKILL.md`. Create the destination folders if they do not exist.
 
-### 🧠 [excalidraw-diagram](./excalidraw-diagram/)
+## Before you use a skill
 
-Generate Excalidraw diagrams that **argue visually** — shapes mirror the concept (fan-outs, timelines, convergence), not uniform card grids. By [coleam00](https://github.com/coleam00/excalidraw-diagram-skill).
+- Start with one skill that fits your task. You do not need to install everything.
+- Some skills need extra software or service accounts. Ask your agent to check the requirements first.
+- Amp-only workflows that require its special tools, portals, or cloud environment are excluded. Other agents may still need adjustments.
+- Review scripts before running them, and check the result before publishing or sending it.
 
-- Concept-driven layout + evidence artifacts (real code/JSON snippets)
-- Built-in Playwright render pipeline for visual self-validation
-- Brand-customizable via a single `color-palette.md`
+## Credits and licenses
 
-### 🤖 [ralph](./ralph/)
+This collection includes my own work and skills from other creators. See [sources and revisions](SOURCES.md) for the imported skills.
 
-Autonomous AI coding loop with clean slate iterations, PRD-driven features, and CI quality gates.
-
-- Long-running autonomous coding tasks
-- PRD-to-implementation workflow
-- Quality gates and progress tracking
-
-### 🖼️ [svg-art-skill](./svg-art-skill/)
-
-Generate SVG graphics through programmatic Python scripts.
-
-- Grid patterns, radial/spiral designs, fractals
-- Waves, particles, constellations
-- Data visualizations (bar, line, pie, donut charts)
-- UI icons library with 40+ icons
-- SVG optimization and minification
-
-### 📋 [plan-skill](./plan-skill/)
-
-Manus-style persistent markdown planning for complex tasks.
-
-- 3-file pattern: task_plan.md, notes.md, deliverable
-- Progress tracking with checkboxes
-- Error logging and knowledge storage
-- Context engineering (based on $2B Manus workflow)
-
-## Installation
-
-Copy the skill folder to your Claude Code skills directory:
-
-```bash
-cp -r <skill-folder> ~/.claude/skills/
-```
-
-## License
-
-MIT
+Licenses vary. Keep the original credits and check each skill's license before redistributing it. Some imported skills have no bundled license and need permission confirmed first.
