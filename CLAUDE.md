@@ -12,27 +12,31 @@ Each skill is a directory containing:
 - `SKILL.md` - Main skill definition with YAML frontmatter (name, description) and prompt instructions
 - Supporting files (templates, examples, references, assets)
 
+Standalone skills live in `skills/<skill-name>/`. Keep complete multi-skill bundles in `bundles/`; `bundles/explanation-skills/` contains an alternative explanation collection. Do not put new skill folders at the repository root.
+
 ## Available Skills
 
 | Skill | Purpose |
 |-------|---------|
-| `advanced-frontend-skill/` | Awwwards-level frontend interfaces with WebGL, shaders, animations |
-| `animated-diagram/` | Animated flowcharts/decision trees as Remotion + React videos (Mermaid input, node/edge reveals, trace dots, CRT shader) |
-| `excalidraw/` | Generate Excalidraw JSON diagrams programmatically |
-| `excalidraw-diagram/` | Excalidraw diagrams that argue visually (concept-driven layout, Playwright render-validation loop) — vendored from coleam00/excalidraw-diagram-skill |
-| `ralph/` | Ralph Wiggum autonomous coding loop - PRD-driven with CI gates |
-| `svg-art-skill/` | Programmatic SVG generation (grids, fractals, charts, icons) |
+| `skills/premium-frontend-design/` | Awwwards-level frontend interfaces with WebGL, shaders, animations |
+| `skills/animated-diagram/` | Animated flowcharts/decision trees as Remotion + React videos (Mermaid input, node/edge reveals, trace dots, CRT shader) |
+| `skills/excalidraw/` | Generate Excalidraw JSON diagrams programmatically |
+| `skills/excalidraw-diagram/` | Excalidraw diagrams that argue visually (concept-driven layout, Playwright render-validation loop) — vendored from coleam00/excalidraw-diagram-skill |
+| `skills/ralph/` | Ralph Wiggum autonomous coding loop - PRD-driven with CI gates |
+| `skills/svg-art/` | Programmatic SVG generation (grids, fractals, charts, icons) |
+
+See `skills/README.md` for the full catalog. Keep this index updated when adding, removing, or renaming a skill; group entries by task without nesting skill folders by category.
 
 ## Installation
 
 Copy skill folder to Claude Code skills directory:
 ```bash
-cp -r <skill-folder> ~/.claude/skills/
+cp -r skills/<skill-name> ~/.claude/skills/
 ```
 
 ## Creating New Skills
 
-1. Create a new directory with skill name
+1. Create `skills/<skill-name>/`
 2. Add `SKILL.md` with YAML frontmatter:
    ```yaml
    ---
