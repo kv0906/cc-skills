@@ -23,7 +23,7 @@ Use these with Amp, Claude Code, Codex, or another AI agent that supports skills
 | Plan a complex task | [planning-with-files](skills/planning-with-files/) |
 | Check that a code change really works | [proving-changes](skills/proving-changes/) |
 
-Browse the [complete catalog of 30 standalone skills](skills/README.md), grouped by task. It includes 20 imported from my Amp setup. Each skill explains when to use it.
+Browse the [complete catalog of 34 standalone skills](skills/README.md), grouped by task. It includes 23 imported from my Amp setup, plus the separately supplied `interactive-diagram` skill. Each skill explains when to use it.
 
 ## Repository layout
 

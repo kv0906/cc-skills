@@ -1,6 +1,6 @@
 # Skill catalog
 
-All 30 standalone skills live directly under this folder. Categories below help you choose; they do not add nesting to the installation paths.
+All 34 standalone skills live directly under this folder. Categories below help you choose; they do not add nesting to the installation paths.
 
 Copy a complete skill folder, including its supporting files. See the [installation guide](../README.md#get-started) and [Amp snapshot sources](../SOURCES.md).
 
@@ -20,16 +20,19 @@ Copy a complete skill folder, including its supporting files. See the [installat
 | Skill | Use it to… |
 | --- | --- |
 | [animate](animate/) | Implement a specific interface animation or transition. |
+| [animating-expo](animating-expo/) | Build gesture-driven animations in React Native and Expo. |
 | [animation-vocabulary](animation-vocabulary/) | Find the precise name for a motion effect. |
 | [apple-design](apple-design/) | Apply Apple-inspired styling and interaction. |
 | [ask-sonner](ask-sonner/) | Implement or troubleshoot Sonner React toasts. |
 | [emil-design-eng](emil-design-eng/) | Apply Emil Kowalski-inspired design-engineering guidance. |
 | [find-animation-opportunities](find-animation-opportunities/) | Find places where missing motion harms feedback or continuity. |
 | [improve-animations](improve-animations/) | Audit existing motion and plan improvements. |
+| [optimizing-animation-performance](optimizing-animation-performance/) | Diagnose dropped frames and improve web animation performance. |
 | [pick-ui-library](pick-ui-library/) | Choose a frontend library from a curated list. |
 | [premium-frontend-design](premium-frontend-design/) | Build cinematic interfaces with WebGL, shaders, and animations. |
 | [prototype](prototype/) | Build UI variants or a core-flow prototype. |
 | [review-animations](review-animations/) | Review an existing motion implementation for defects. |
+| [ui-ux](ui-ux/) | Design and review app interfaces with briefs, wireframes, and detailed component guidance. |
 
 ## Diagrams, presentations, and video
 
@@ -41,6 +44,7 @@ Copy a complete skill folder, including its supporting files. See the [installat
 | [excalidraw](excalidraw/) | Generate Excalidraw JSON diagrams. |
 | [excalidraw-diagram](excalidraw-diagram/) | Create Excalidraw diagrams with concept-driven layout and render validation. |
 | [huashu-design](huashu-design/) | Create prototypes, slides, presentations, and visualizations. |
+| [interactive-diagram](interactive-diagram/) | Build interactive architecture diagrams with React Flow and looping directional arrows. |
 | [svg-art](svg-art/) | Generate SVG graphics with code. |
 | [video-use](video-use/) | Edit existing video through a conversational workflow. |
 
